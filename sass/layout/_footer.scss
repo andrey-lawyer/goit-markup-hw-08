@@ -6,7 +6,7 @@
     @media screen  and (max-width: 767px) {
       text-align: center;
     }
-   
+    
   }
 
 
@@ -22,7 +22,7 @@
   .footer__block-logo-and-adress
   {
     @media screen  and (min-width: 767px) and (max-width: 1199px) {     
-      text-align: center;
+      text-align:center;
      }
   }
 
@@ -114,7 +114,10 @@
        @media screen  and (max-width: 767px) {
         display: block;  
        }
-    
+       @media screen and (min-width: 768px) and (max-width: 1199px) {
+        align-items: baseline;
+       }
+     
   }
   
   .footer__list-icons {
@@ -244,8 +247,8 @@
   
   
   .mail__newsletter{
+    width: 100%;
    
-    width: 358px;
     // моб
    
     padding-left: 16px ;
@@ -259,12 +262,14 @@
     &::placeholder{color:  rgba(255, 255, 255, 0.6)#000;
       font-size: 16px;
       line-height:1.25;};
-      @media screen  and (max-width: 1199px) {
+      @media screen  and (max-width: 480px) {
         margin-bottom: 20px;
        min-width: 450px;      
        }
+       @media screen  and (min-width: 1199px) {
+        width: 358px;   
+       }
        
-      
   }
  
   .form-footer__paragraph{

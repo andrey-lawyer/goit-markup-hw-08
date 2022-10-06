@@ -213,7 +213,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile__link-mail{
 display: block;
-margin-top: 293px;
+// margin-top: 293px;
+margin-top: auto;
 margin-bottom: 32px;
 font-weight: 500;
 font-size: 34px;
@@ -265,4 +266,6 @@ color: #2196F3;
 .linkedIn{
   border-right:none;
 }
-
+.social-mobile{
+margin-top: auto;
+}
