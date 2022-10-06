@@ -1,0 +1,96 @@
+.section-employees__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .section-employees__item {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  
+  .section-employees__list {
+    list-style: none;
+  
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+  .employee-information__jobtitle {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .section-employees .subtitle {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size:28px;
+    line-height:1.17;  
+    justify-content: center;
+    text-align: center;
+    @media screen and (min-width: 1200px)  {
+      margin-bottom: 50px;
+      font-size: 36px;       
+    }
+   
+  }
+  .employee-information {
+   
+    background-color: var(--secondary-text-background-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .section-employees {
+    background-color: var(--secondary-background-color);
+  }
+  /* шрифты заголовок член команды */
+  .section-employees__list .subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+  }
+
+  .employee-information__list {
+    gap: 10px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    // моб 450х622, план 350х536, комп 270х428
+  }
+  
+  .employee-information__icon {
+    height: 20px;
+    width: 20px;
+    display: block; 
+    fill: currentColor;
+  }
+  
+  .employee-information__list a {
+    color: #afb1b8;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    /* down change */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: color, background-color; 
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{background-color: #2196f3;  color: #ffffff;};
+    &:focus{background-color: #2196f3;  color: #ffffff;};
+  }
+  
+  

@@ -1,0 +1,16 @@
+@import 'utils/vars';
+@import 'utils/mixins';
+@import 'utils/visuallyhidden';
+
+ @import 'base/reset';
+ @import 'layout//mobile.scss';
+@import 'base/common';
+@import 'layout/header';
+ @import 'layout/benefits';
+ @import 'layout/images';
+ @import 'layout/emploees';
+ @import 'layout/clients';
+@import 'layout/works';
+ @import 'layout/hero';
+@import 'layout/footer';
+@import 'components/modal'; 

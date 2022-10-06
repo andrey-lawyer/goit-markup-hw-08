@@ -1,0 +1,291 @@
+.footer {
+    background-color: var(--heroy-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    // моб
+    @media screen  and (max-width: 767px) {
+      text-align: center;
+    }
+   
+  }
+
+
+  .adress__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    @media screen  and (max-width: 767px) {
+     margin-bottom: 60px;
+    }
+  }
+  
+  .footer__block-logo-and-adress
+  {
+    @media screen  and (min-width: 767px) and (max-width: 1199px) {     
+      text-align: center;
+     }
+  }
+
+  .logo__black {
+    
+    color: var(--primary-black-color);
+  
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+  .footer .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    @media screen  and (min-width: 1200px) {
+      margin-right: 0;
+     }
+    
+  }
+  
+  .logo {
+    @media screen  and (min-width: 1200px) {
+      margin-right: 93px;
+     }
+    
+    color: var(--accent-color);
+  
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+  
+  .icon__email {
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    @media screen  and (min-width: 1200px) {
+      margin: 0 auto;
+    margin-right: 10px;
+     }
+    
+  }
+  .icon__phone {
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+    @media screen  and (min-width: 1200px) {
+      margin: 0 auto;
+    margin-right: 10px;
+     }
+    
+  }
+   
+  .footer__block-flex {
+    @media screen  and (min-width: 1200px) {
+     display: flex;
+     align-items: baseline;
+     }
+    
+  }
+  .footer__block-icons {
+    @media screen  and (min-width: 1200px) {
+      margin-left: 70px;  
+     }
+   
+  }
+  .accent {
+    display: block;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  
+  }
+  .footer__block-logo-adress-and-icon{
+    
+      display: flex;
+      align-items: center;
+      justify-content:space-around; 
+      margin-bottom: 60px;
+      @media screen  and (min-width: 1200px) {
+        margin-bottom: 0;  
+       }
+       @media screen  and (max-width: 767px) {
+        display: block;  
+       }
+    
+  }
+  
+  .footer__list-icons {
+    gap: 10px;
+    list-style: none;
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+     justify-content: center;
+    
+    @media screen  and (max-width: 767px) {
+      margin-bottom: 60px;
+     }
+  }
+  .footer__icons {
+    height: 20px;
+    width: 20px;
+    display: block;
+  
+    fill: currentColor;
+  }
+  .footer__list-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 12px;
+    
+    display: block;
+    height: 44px;
+    width: 44px;
+  
+    transition-property: background-color; 
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{background-color: #2196f3;};
+    &:hover{background-color: #2196f3;};
+  }
+ 
+  
+  .phone, .mail{
+    display: inline-block;
+  }
+  
+  .contacts__link-mailphone {
+    color: var(--phone-mail-color);
+    
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 1.71;
+    text-decoration: none;
+    transition-property: color; 
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{color: var(--accent-color)};
+    &:focus{color: var(--accent-color)};  
+  }
+  
+  
+  .link-town {
+    display: inline-block;
+  
+    color: var(--secondary-text-background-color);
+    /* font-weight: 400; */
+    font-style: normal;
+    line-height: 1.71;
+    text-decoration: none;
+  
+    transition-property:  color; 
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{color: var(--accent-color);};
+    &:focus{color: var(--accent-color);};
+  }
+  .adress__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  
+  .logo__white {
+    color: var(--secondary-background-color);
+  
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .form-footer{
+    @media screen  and (min-width: 767px) and (max-width: 1199px) {
+      text-align: center;
+     }
+     @media screen  and (min-width: 1200px) {
+      min-width: 570px;
+    margin-left: 93px;   
+      }
+ 
+  }
+
+  .form-footer__block-field-button{
+    @media screen  and (min-width: 1200px) {
+      display: flex; 
+      }    
+  }
+  .button-footer{
+    @media screen  and (min-width: 1200px) {
+      display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 12px;
+      }    
+    
+   background-color: #2196F3;
+   height: 50px;
+   width: 200px;
+   border: none;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   transition-property: transform, box-shadow; 
+   transition-duration: 250ms; 
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover{ box-shadow:    4px 4px  #477fd8,
+    8px 8px  #4579ce;
+    transform: scale(0.95);};
+   &:focus{ box-shadow:    4px 4px  #477fd8,
+    8px 8px  #4579ce;
+    transform: scale(0.95);};
+  }
+  
+  
+  .mail__newsletter{
+   
+    width: 358px;
+    // моб
+   
+    padding-left: 16px ;
+    
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: #FFFFFF;
+    &::placeholder{color:  rgba(255, 255, 255, 0.6)#000;
+      font-size: 16px;
+      line-height:1.25;};
+      @media screen  and (max-width: 1199px) {
+        margin-bottom: 20px;
+       min-width: 450px;      
+       }
+       
+      
+  }
+ 
+  .form-footer__paragraph{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
+  }
+  .signature{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  }
+  .button-footer__icon{
+    @media screen  and (min-width: 1200px) {
+      margin-left: 10px;
+      } 
+  
+  } 
