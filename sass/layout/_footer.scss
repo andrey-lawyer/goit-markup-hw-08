@@ -114,7 +114,7 @@
        @media screen  and (max-width: 767px) {
         display: block;  
        }
-       @media screen and (min-width: 768px) and (max-width: 1199px) {
+       @media screen and (min-width: 768px)  {
         align-items: baseline;
        }
      
@@ -223,10 +223,13 @@
   .button-footer{
     @media screen  and (min-width: 1200px) {
       display: flex;
-    justify-content: center;
-    align-items: center;
-   margin-left: 12px;
-      }    
+     justify-content: center;
+     align-items: center;
+     margin-left: 12px;
+      } 
+      @media screen  and (max-width: 767px) {
+       margin-top: 20px;
+        }     
     
    background-color: #2196F3;
    height: 50px;
@@ -262,7 +265,7 @@
     &::placeholder{color:  rgba(255, 255, 255, 0.6)#000;
       font-size: 16px;
       line-height:1.25;};
-      @media screen  and (max-width: 480px) {
+      @media screen  and (min-width: 480px) {
         margin-bottom: 20px;
        min-width: 450px;      
        }
